@@ -19,7 +19,7 @@ public class WriteReadObject {
     public static void main(String[] args) {
         //Writes an object a binary file 
         ObjectOutputStream fileOut;
-        TestObject obj = new TestObject(1, "test1", 2.0);
+        TestObject obj = new TestObject(1, "test1", 2);
         String fileName = JOptionPane.showInputDialog(null, "Enter the file´s name");
 
         try {
